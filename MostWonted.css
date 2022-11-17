@@ -40,10 +40,11 @@ header {
     color: white;
 }
 
-main {
+.main_MW {
     width: 100vw;
-    height: 100vh;
+    height: 260vh;
     background-color: #cacaf8;
+ 
 }
 
 .nav_links {
@@ -60,19 +61,25 @@ main {
 
 }
 
-.criminal1 {
+.criminal {
     width: 300px;
     background-color: #cacaf8;
     border: 1px solid black;
-    margin: 10px 0 0 50px;
+    margin: 10px 0 0 80px;
 }
 
 .color {
     color: brown;
 }
 
-.criminal1:hover {
+.criminal:hover {
     cursor: pointer;
     transform: scale(1.5);
     background-color: blueviolet;
 }
+
+.wrapper_pictures {
+    display: flex;
+    flex-wrap: wrap;
+}
+
