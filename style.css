@@ -96,6 +96,12 @@ form {
     color: bisque;
 }
 
+@media (max-width: 551px){
+    header {
+        background-color: brown;
+    }
+}
+
 
 
 
