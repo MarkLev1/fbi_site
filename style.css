@@ -51,10 +51,7 @@ header {
     text-decoration: underline;
 }
 
-/* 
-header {
-    display: flex;
-} */
+
 .wrapper_main {
     background: url(./img/main_img.jpg) no-repeat center;
     width: 100vw;
@@ -88,6 +85,11 @@ form {
 .href:hover {
     text-decoration: underline;
     color: blanchedalmond;
+}
+
+.active_link {
+    text-decoration: underline;
+    color: bisque;
 }
 
 
